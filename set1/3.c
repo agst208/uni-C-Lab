@@ -2,7 +2,7 @@
 
 int main() {
     int x,y,t;
-    printf("Enter two values: ");
+    printf("Enter two 3-digit numbers: ");
     scanf("%d%d", &x, &y);
     if (x > 99 && y>99 && x<1000 && y<1000) {
         t = y;
@@ -12,7 +12,7 @@ int main() {
         printf("%d %d \n", x, y);
     }
     else {
-        printf("wrong value types\n");
+        printf("Numbers need to be 3-digit and positive\n");
     }
 
     return 0;
