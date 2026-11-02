@@ -1,3 +1,4 @@
+//Askisi 7
 #include <stdio.h>
 
 int main() {
@@ -10,6 +11,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
+    // Πολλαπλασιάζουμε επανειλημμένα (n φορες) επί 2 για να υπολογίσουμε το 2^n.
     for (int i = 1; i <= n-1; i++) {
         res *= 2;
     }

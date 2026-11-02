@@ -1,9 +1,11 @@
+//Askisi 8
 #include <stdio.h>
 
 int main() {
 
     double a,b;
     
+    // Επαναλαμβάνουμε την εισαγωγή μέχρι οι αριθμοί να είναι έγκυροι.
     do {
         printf("Eter two numbers: ");
         scanf("%lf%lf", &a, &b);
@@ -12,6 +14,7 @@ int main() {
         }
     } while (b <= 0 || a < 0);
 
+    // Υπολογίζουμε το ακέραιο πηλίκο και από αυτό το υπόλοιπο.
     int q = (int)(a / b);
     float r = a - b * q;
 
