@@ -1,3 +1,4 @@
+//2o set askisi 6
 #include <stdio.h>
 
 int main() {
