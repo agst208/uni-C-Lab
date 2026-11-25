@@ -38,9 +38,9 @@ int main() {
 
     // pososto % twn mhdenikwn stoixeion tou pinaka a
     float percentage_0 = (float)num_0 / 9 * 100;
-    printf("Pososto mhdenikwn stoixeion: %.2f%%\n", percentage_0);
+    printf("Pososto mhdenikwn stoixeion: %f %\n", percentage_0);
 
-    // chack an ein ai areos
+    // chack an einai areos
     if (percentage_0 > 80) {
         printf("O pinakas a einai areos.\n");
     }

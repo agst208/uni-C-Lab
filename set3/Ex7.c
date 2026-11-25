@@ -15,7 +15,7 @@ int print_matrix(int **matrix, int n, int m) {
 }
 
 // Synartisi pou ypologizei to athroisma mias grammhs tou pinaka
-int athroisma_grammhs(int **matrix, int n, int m, int row) {
+int athroisma_grammhs(int **matrix, int m, int row) {
     int sum = 0;
     for (int j = 0; j < m; j++) {
         sum += matrix[row][j];
@@ -63,7 +63,7 @@ int main() {
 
     // ektiposi athroismaton
     for (int i = 0; i < n; i++) {
-        int sum = athroisma_grammhs(a, n, m, i);
+        int sum = athroisma_grammhs(a, m, i);
         sums[i][0] = i; // apothikeusi tou arithmou tis grammhs
         sums[i][1] = sum; // apothikeusi tou athroismatos
         printf("To athroisma tis grammhs %d einai: %d\n", i, sum);
