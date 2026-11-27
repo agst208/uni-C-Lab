@@ -111,3 +111,11 @@ int main() {
     return 0;
 
 }
+
+
+/* 
+O pinakas "sums" leitourgei os voithitikos 
+einai pinakas 2 sthlon me thn 1 na krataei ton arithmo grammhs kai h 2 to sum tis.
+epeita to programma taksinomei ton pinaka sums kai ton xrhsimopooiei gia na ftiaksei ton pinaka b
+o opoios einai o taksinomimenos
+*/
